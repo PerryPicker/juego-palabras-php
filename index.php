@@ -21,9 +21,9 @@
     foreach ($palabras as $palabra) {
       $nuevaPalabra = str_shuffle($palabra);
     ?>
-      <label><?php echo $nuevaPalabra ?></label>
-      <input type="text" name="palabraIngresada<?php echo array_search($palabra, $palabras); ?>"><br><br>
-
+      <label for="palabraIngresada"><?php echo $nuevaPalabra ?></label>
+      <input type="text" id="palabraIngresada" name="palabraIngresada<?php echo array_search($palabra, $palabras); ?>">
+      <br><br>
     <?php
     }
     ?>
