@@ -11,6 +11,14 @@
 <body>
   <form action="resultados.php" method="POST">
 
+  <h1>Juego de palabras revueltas</h1>
+  <p>Analiza las siguientes palabras cuyas letras se encuentran en desorden.</p>
+  <p>Piensa en cuáles son las palabras originales, escríbelas y cuando termines presiona "Listo".</p>
+
+  <p><b>Pista: </b>las palabras están relacionadas a elementos de la naturaleza.</p>
+
+  <br>
+
     <?php
 
     $palabras = ["sol", "luna", "cielo", "tierra", "mar", "aire", "agua"];
